@@ -1,5 +1,6 @@
 mod tasks;
 mod guessno;
+mod structs;
 
 fn main() {
     let myname = String::from("immutable reference");
@@ -7,5 +8,6 @@ fn main() {
 
     tasks::run(myname);
     tasks::append_text(&mut firstname);
+    structs::structs();
     guessno::guess_number();
 }
