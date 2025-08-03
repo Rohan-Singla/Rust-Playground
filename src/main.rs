@@ -9,5 +9,6 @@ fn main() {
     tasks::run(myname);
     tasks::append_text(&mut firstname);
     structs::structs();
+    structs::rect_area();
     guessno::guess_number();
 }
